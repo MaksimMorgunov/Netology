@@ -34,5 +34,5 @@
     batch - запускается когда уровень загрузки системы снизится ниже 1.5 или указаное в сервисе atd
     
 11. root@debian:/home/firewall/1# vagrant suspend
-==> default: Saving VM state and suspending execution...
+    ==> default: Saving VM state and suspending execution...
 
