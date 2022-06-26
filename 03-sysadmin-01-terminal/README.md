@@ -2,7 +2,19 @@
 
 1. Уставнока виртуальной машины Debian 11.3 на HYPER-V
 2. Включение вложенной виртуализиции Hyper-v
+3. 
 ![2022-06-21_22-27-43](https://user-images.githubusercontent.com/106722971/175811993-6b8581b6-dc94-4131-887f-2287f68e695c.jpg)
 
-Установка vagranta через предварительно подготовленный впн wireguard 
-![2022-06-21_22-33-54](https://user-images.githubusercontent.com/106722971/175812081-868950b2-8415-45ae-8e05-5cc7778aec89.jpg)
+3. Установка vagranta через предварительно подготовленный впн wireguard 
+
+![2022-06-21_23-30-28](https://user-images.githubusercontent.com/106722971/175812171-4fc2a7c1-c6d6-4b72-b54f-04c9d742ea43.png)
+
+4. HISTFILESIZE - максимальное количество строк
+
+![2022-06-26_15-19-05](https://user-images.githubusercontent.com/106722971/175812211-54748f69-e825-4e1b-b7c9-11a48300174a.png)
+
+5. ignoreboth — использовать обе опции ‘ignorespace’ и ‘ignoredu
+ - ignorespace — не сохранять строки начинающиеся с символа <пробел>
+ - ignoredups — не сохранять строки, совпадающие с последней выполненной командой
+
+6. 
