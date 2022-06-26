@@ -2,5 +2,7 @@
 
 1. Уставнока виртуальной машины Debian 11.3 на HYPER-V
 2. Включение вложенной виртуализиции Hyper-v
-
 ![2022-06-21_22-27-43](https://user-images.githubusercontent.com/106722971/175811993-6b8581b6-dc94-4131-887f-2287f68e695c.jpg)
+
+Установка vagranta через предварительно подготовленный впн wireguard 
+![2022-06-21_22-33-54](https://user-images.githubusercontent.com/106722971/175812081-868950b2-8415-45ae-8e05-5cc7778aec89.jpg)
