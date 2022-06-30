@@ -27,12 +27,22 @@
  
 8. touch {000001..100000}.file
   - root@vagrant:/home/vagrant/1# touch {000001..300000}.txt
-    bash: /usr/bin/touch: Argument list too long <-- почему не хватает аргументов не разобался 
+    bash: /usr/bin/touch: Argument list too long <-- Все дело в ограничение константы ARG_MAX = 2097152 bytes. 
 9. "-d" file - True if file exists and is a directory. 
+    
+	if [[ -d /tmp ]]
+then
+    echo "каталог есть"
+else
+    echo "каталога нет"
+fi
 
-10. at - команда запускается в указанное время
+10. 
+![2022-06-30_11-29-29](https://user-images.githubusercontent.com/106722971/176586903-e6da3338-1343-4476-b177-4a5a14ecbe52.png)
+
+11. at - команда запускается в указанное время
     batch - запускается когда уровень загрузки системы снизится ниже 1.5 или указаное в сервисе atd
     
-11. root@debian:/home/firewall/1# vagrant suspend
+12. root@debian:/home/firewall/1# vagrant suspend
     ==> default: Saving VM state and suspending execution...
 
