@@ -31,11 +31,20 @@
 9. "-d" file - True if file exists and is a directory. 
     
 	if [[ -d /tmp ]]
+	
 then
+
     echo "каталог есть"
+    
 else
+
     echo "каталога нет"
+    
 fi
+
+![2022-06-30_16-48-23](https://user-images.githubusercontent.com/106722971/176636359-c9262f9d-3c85-4700-9462-a028c43732c9.jpg)
+
+вернет 0 - есть католог есть, вернет 1 нет каталога
 
 10. 
 ![2022-06-30_11-29-29](https://user-images.githubusercontent.com/106722971/176586903-e6da3338-1343-4476-b177-4a5a14ecbe52.png)
